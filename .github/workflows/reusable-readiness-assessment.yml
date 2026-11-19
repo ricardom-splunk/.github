@@ -40,7 +40,7 @@ jobs:
 
       - name: Verify app visibility from app.conf
         id: visibility
-        run:: |
+        run: |
           set -euo pipefail
           APP_CONF="default/app.conf"
 
